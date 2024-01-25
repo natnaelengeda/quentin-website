@@ -16,6 +16,8 @@ import typescriptIcon from "../../assets/image/projects/typescript-icon.svg";
 import vueIcon from "../../assets/image/projects/vue-icon.svg";
 import boostrapIcon from "../../assets/image/projects/bootstrap-icon.svg";
 import { About } from "../About/About";
+import { Project } from "../Project/Project";
+import { Contact } from "../Contact/Contact";
 
 
 
@@ -261,11 +263,8 @@ export function Main() {
       />
       <Hero></Hero>
       <About></About>
-
-      {/* <Hero></Hero>
-      <About></About>
       <Project></Project>
-      <Contact></Contact> */}
+      <Contact></Contact>
     </Container>
   );
 }

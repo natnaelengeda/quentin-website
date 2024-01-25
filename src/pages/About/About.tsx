@@ -1,5 +1,4 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/image/projects/VinayakSingh.png";
 import wordpress from "../../assets/image/projects/wordpress.svg";
 import shopify from "../../assets/image/projects/shopify.svg";
 import htmlIcon from "../../assets/image/projects/html-icon.svg";
@@ -11,6 +10,8 @@ import typescriptIcon from "../../assets/image/projects/typescript-icon.svg";
 import vueIcon from "../../assets/image/projects/vue-icon.svg";
 import boostrapIcon from "../../assets/image/projects/bootstrap-icon.svg";
 
+import quentinZimmerer from '../../assets/image/headshot.jpeg';
+
 
 export function About() {
   return (
@@ -21,12 +22,12 @@ export function About() {
         {/* </ScrollAnimation> */}
         {/* <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}> */}
         <p>
-          Hi there! I'm Vinayak, a website developer with a passion for creating custom online experiences for my clients. With a skill set including HTML, CSS, JavaScript, and React, I have the tools to bring any website vision to life.
+          I'm Quentin Zimmerer, a Front-End Developer passionate about crafting awesome websites. I started my web journey in January 2023 and love learning and improving every day.
         </p>
         {/* </ScrollAnimation> */}
         {/* <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}> */}
         <p>
-          But my services go beyond just custom development - I'm also proficient in using CMS systems like WordPress and Shopify, making it easy for my clients to take control of their own websites and keep them up to date.</p>
+          📚 Learning Path: I began on FreeCodeCamp, mastering HTML, CSS, and basic JavaScript for user-friendly websites. Now, I'm diving deeper with Coursera courses for advanced front-end development.</p>
         {/* </ScrollAnimation> */}
         {/* <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}> */}
         <p>
@@ -94,7 +95,7 @@ export function About() {
       </div>
       <div className="about-image">
         {/* <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}> */}
-        <img src={VinayakSingh} alt="Vinayak Singh" />
+        <img src={quentinZimmerer} alt="Quentin A. Zimmerer" />
         {/* </ScrollAnimation> */}
       </div>
     </Container>

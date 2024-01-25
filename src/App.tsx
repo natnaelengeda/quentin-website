@@ -1,9 +1,7 @@
-import React from 'react'
-import { useEffect } from 'react'
 import { GlobalStyle } from './styles/global'
 import Header from './layout/Header/Header'
-import { Hero } from './pages/Hero/Hero'
 import { Main } from './pages/Main/Main'
+import { Footer } from './pages/Footer/Footer'
 
 function App() {
   return (
@@ -11,6 +9,7 @@ function App() {
       <GlobalStyle></GlobalStyle>
       <Header></Header>
       <Main></Main>
+      <Footer></Footer>
     </>
   )
 }
