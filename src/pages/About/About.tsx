@@ -22,16 +22,17 @@ export function About() {
         {/* </ScrollAnimation> */}
         {/* <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}> */}
         <p>
-          I'm Quentin Zimmerer, a Front-End Developer passionate about crafting awesome websites. I started my web journey in January 2023 and love learning and improving every day.
+          I'm a self-taught software developer focusing on web development and e-commerce. With a passion for entrepreneurship.
         </p>
+        <br />
         {/* </ScrollAnimation> */}
         {/* <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}> */}
-        <p>
-          📚 Learning Path: I began on FreeCodeCamp, mastering HTML, CSS, and basic JavaScript for user-friendly websites. Now, I'm diving deeper with Coursera courses for advanced front-end development.</p>
+        <p> I am dedicated to staying up-to-date with the latest technology trends and incorporating innovative solutions into my work. I believe this dedication is critical to ensuring that the projects I work on are not only successful but also useful.</p>
+        <br />
         {/* </ScrollAnimation> */}
         {/* <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}> */}
         <p>
-          So if you're in need of a new website or just looking to revamp your current online presence, I'd love to chat and see how I can help. Let's bring your website dreams to reality together!</p>
+          Overall, I'm excited about the opportunity to apply my skills and experience to help any organization achieve their goals and make a noticeable change.</p>
         {/* </ScrollAnimation> */}
 
         {/* <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}> */}
